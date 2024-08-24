@@ -1,0 +1,27 @@
+.tab {
+  display: inline-flex;
+  height: 3rem;
+  min-height: 3rem;
+  flex-shrink: 0;
+  cursor: pointer;
+  user-select: none;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border-radius: .5rem;
+  padding: 0 1rem;
+  text-align: center;
+  font-size: 1.4rem;
+  line-height: 1em;
+  font-weight: 600;
+  text-decoration: none;
+  text-decoration-line: none;
+  transition-duration: .2s;
+  background-color: oklch(0.93 0 0);
+  color: oklch(0.223899 0.031305 278.072);
+
+  &.active {
+    background-color: darkgray;
+    color: white;
+  }
+}
